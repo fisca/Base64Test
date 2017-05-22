@@ -13,7 +13,7 @@ extern "C" {
 		printf("Hello from Base64Test DLL !\n");
 	}
 
-	__declspec(dllexport) int PlusNumber(int a, int b)
+	__declspec(dllexport) int PlusTwoNumber(int a, int b)
 	{
 		return a + b;
 	}
